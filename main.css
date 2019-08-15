@@ -1,0 +1,152 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+.blue-div{
+    display: inline-block;
+    min-width: 100%;
+    padding: 70px;
+    background-color: #007fb2;
+}
+.ig-logo{
+    display: inline;
+    margin-left:45%; 
+}
+.container{
+    background-color: whitesmoke;
+}
+
+.cellphone-logo{
+    display: inline-block;
+    padding: 0;
+    margin-left: 20%;
+    margin-top: -10%;
+}
+.text-content{
+    background-color: whitesmoke;
+    position: absolute;
+    display:inline-block;
+    padding: 18px;
+    box-shadow: 0 14px 38px rgba(0,0,0,0.25), 0 20px 20px rgba(0,0,0,0.22);
+    width: 420px;
+    margin-left: 4%;
+    margin-top: -40px;
+    z-index: 1;
+}
+.text-content h1{
+    color:#007fb2;
+}
+.text-content span{
+    font-weight: bold;
+}
+.apple-logo, .android-logo{
+    display: inline;
+    margin-left: 28px;
+}
+.apple-logo:hover,
+.android-logo:hover{
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px 5px;
+    font-weight: bold;
+  }
+li a {
+    display: block;
+    color:#007fb2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li{
+    float:left;
+}
+footer{
+    display: inline-block;
+    margin-left:22%;
+}
+@media screen and (min-width: 710px){
+    .mobile-container{
+        display: none;
+    }
+}
+/* MEDIA QUERIES PHONE */
+@media screen and (max-width: 715px){
+    .container{
+        display: none;
+    }
+    .mobile-container{
+        margin: 0 auto;
+        width: 400px;
+        height: 800px;
+        box-shadow: 0 14px 38px rgba(0,0,0,0.25), 0 20px 20px rgba(0,0,0,0.22);
+        border: solid 2px whitesmoke;
+    }
+    .logo img{
+        width: 70%;
+        margin: 10px 60px;
+        padding:0;
+    
+    }
+    .text-mob{
+        color:grey;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+        margin-top:-30px;
+        line-height: 0.6;
+    }
+    .insta-btn{
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 10px 56px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+    input{
+        width: 80%;
+        color: black;
+        padding: 14px 20px;
+        background-color: whitesmoke;
+        margin: 8px 0;
+        border: solid grey 1px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .sign-btn{
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 10px 60px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 40px;
+        width: 85%;
+    }
+    .footer{
+        margin-top: 60px;
+    }
+    .footer span{
+        color:DodgerBlue
+    }
+    .apple-logo, .android-logo{
+        display: inline;
+        padding: 0;
+        margin: 0; 
+    }
+    footer{
+        display: inline-block;
+        margin-left:6%;
+    }
+    ul {
+        list-style-type: none;
+        margin: 10px;
+        padding: 10px 5px;
+        font-weight: bold;
+      }
+}
